@@ -1,0 +1,139 @@
+/* ==========================================================================
+   INUITCSS
+   ========================================================================== */
+
+/**
+ * inuitcss, by @csswizardry
+ *
+ * github.com/inuitcss | inuitcss.com
+ */
+
+/**
+ * This is an example inuitcss manifest file. DO NOT MODIFY THIS FILE DIRECTLY.
+ * Instead, copy and paste it into your own CSS directory and make additions,
+ * extensions, and modifications there.
+ */
+
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Config...............Project-level configuration and feature switches.
+ * Core.................inuitcss’ core and setup settings.
+ * Global...............Project-wide variables and settings.
+ *
+ * TOOLS
+ * Rem..................Tools for converting pixel inputs into their rem
+ *                      equivalents.
+ * Font-size............A mixin which guarantees baseline-friendly line-heights.
+ * Clearfix.............Micro clearfix mixin.
+ * Hidden...............Mixin for hiding elements.
+ * Sass MQ..............inuitcss’ default media query manager.
+ *
+ * GENERIC
+ * Box-sizing...........Better default `box-sizing`.
+ * Normalize.css........A level playing field using @necolas’ Normalize.css.
+ * Reset................A tiny reset to complement Normalize.css.
+ * Shared...............Sensibly and tersely share some global commonalities
+ *                      (particularly useful when managing vertical rhythm).
+ *
+ * ELEMENTS
+ * Page.................Set up our document’s default `font-size` and
+ *                      `line-height`.
+ * Headings.............Very minimal (i.e. only font-size information) for
+ *                      headings 1 through 6.
+ * Images...............Base image styles.
+ * Tables...............Simple table styles.
+ *
+ * OBJECTS
+ * Wrapper..............Page constraint object.
+ * Layout...............Generic layout module.
+ * Media................Image- and text-like content side by side. The
+ *                      poster-child of OOCSS.
+ * Flag.................Table-layout-based advancement on the Media object.
+ * List-bare............Lists with no bullets or indents.
+ * List-inline..........A list whose items all site in a line.
+ * Box..................Simple boxing abstraction.
+ * Block................Image-on-top-of-text object.
+ * Ratio................A container for maintaining aspect ratio of content.
+ * Crop.................Provide a cropping context for media (images, etc.).
+ * Tables...............Classes for manipulating `table`s.
+ * Pack.................Pack items into available horizontal space.
+ *
+ * COMPONENTS
+ * Buttons..............An example button component, and how it fits into the
+ *                      inuitcss framework.
+ *
+ * UTILITIES
+ * Clearfix.............Bind our clearfix onto a utility class.
+ * Widths...............Simple width helper classes.
+ * Headings.............Reassigning our heading styles to helper classes.
+ * Spacing..............Nudge bits of the DOM around with these spacing
+ *                      classes.
+ * Print................Reset-like styles taken from the HTML5 Boilerplate.
+ * Hide.................Helper classes to hide content
+ */
+
+// SETTINGS
+
+@import "node_modules/inuitcss/settings/_example.settings.config.scss";
+@import "node_modules/inuitcss/settings/_example.settings.global.scss";
+@import "node_modules/inuitcss/settings/_settings.core.scss";
+
+// TOOLS
+@import "node_modules/inuitcss/tools/_tools.clearfix.scss";
+@import "node_modules/inuitcss/tools/_tools.font-size.scss";
+@import "node_modules/inuitcss/tools/_tools.hidden.scss";
+@import "node_modules/inuitcss/tools/_tools.rem.scss";
+
+// GENERIC
+@import "node_modules/inuitcss/generic/_generic.box-sizing.scss";
+@import "node_modules/inuitcss/generic/_generic.normalize.scss";
+@import "node_modules/inuitcss/generic/_generic.reset.scss";
+@import "node_modules/inuitcss/generic/_generic.shared.scss";
+
+// ELEMENTS
+@import "node_modules/inuitcss/elements/_elements.headings.scss";
+@import "node_modules/inuitcss/elements/_elements.images.scss";
+@import "node_modules/inuitcss/elements/_elements.page.scss";
+@import "node_modules/inuitcss/elements/_elements.tables.scss";
+
+// OBJECTS
+@import "node_modules/inuitcss/objects/_objects.block.scss";
+@import "node_modules/inuitcss/objects/_objects.box.scss";
+@import "node_modules/inuitcss/objects/_objects.crop.scss";
+@import "node_modules/inuitcss/objects/_objects.flag.scss";
+@import "node_modules/inuitcss/objects/_objects.layout.scss";
+@import "node_modules/inuitcss/objects/_objects.list-bare.scss";
+@import "node_modules/inuitcss/objects/_objects.list-inline.scss";
+@import "node_modules/inuitcss/objects/_objects.media.scss";
+
+@import "node_modules/inuitcss/objects/_objects.pack.scss";
+@import "node_modules/inuitcss/objects/_objects.pack.scss";
+@import "node_modules/inuitcss/objects/_objects.ratio.scss";
+@import "node_modules/inuitcss/objects/_objects.tables.scss";
+@import "node_modules/inuitcss/objects/_objects.wrapper.scss";
+
+
+// COMPONENTS
+@import "node_modules/inuitcss/components/_example.components.buttons.scss";
+// @import "components/components.page-head";
+// @import "components/components.page-foot";
+// @import "components/components.site-nav";
+// @import "components/components.ads";
+// @import "components/components.promo";
+
+// UTILITIES
+@import "node_modules/inuitcss/utilities/_utilities.clearfix.scss";
+@import "node_modules/inuitcss/utilities/_utilities.headings.scss";
+@import "node_modules/inuitcss/utilities/_utilities.hide.scss";
+@import "node_modules/inuitcss/utilities/_utilities.print.scss";
+@import "node_modules/inuitcss/utilities/_utilities.spacing.scss";
+@import "node_modules/inuitcss/utilities/_utilities.widths.scss";
+
+
+
+html {
+    background: springgreen;
+    color: red;
+}
